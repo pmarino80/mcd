@@ -1,0 +1,55 @@
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-stable bar-assertive nav-title-ios7">
+      <!--<ion-nav-back-button class="button-clear"><i class="icon ion-chevron-left"></i> Back</ion-nav-back-button>-->
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-dark">
+      <h1 class="title">Menu</h1>
+    </header>
+    <ion-content class="has-header">
+      <ion-list>
+      <ion-item nav-clear menu-close href="#/app/profile">
+        <i class="icon ion-email"></i> Your Profile
+      </ion-item>
+	  <div class="item item-divider">
+	    Choose a Business
+	  </div>
+	<ion-item nav-clear menu-close href="#/app/reading-club">
+        Reading Club<span class="badge badge-assertive">0</span>
+      </ion-item>
+        <ion-item nav-clear menu-close href="#/app/about">
+          SCCG
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/social">
+          Magazines
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/social">
+          Book Fairs
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/social">
+          Education Tech
+        </ion-item>
+	  <div class="item item-divider">
+	    Get in Touch
+	  </div>
+      <ion-item nav-clear menu-close href="#/app/lounge">
+        Teacher's Lounge
+      </ion-item>
+        <ion-item nav-clear menu-close href="#/app/about">
+          About Scholastic
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/social">
+          Social Media
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/contact">
+          Contact Us
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

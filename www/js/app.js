@@ -67,6 +67,96 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+    .state('app.pending', {
+      url: "/reading-club/pending",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/pending.html"
+        }
+      }
+    })
+
+    .state('app.pending-details', {
+      url: "/reading-club/pending/pending-details",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/pending-details.html"
+        }
+      }
+    })
+
+    .state('app.manage-orders', {
+      url: "/reading-club/manage-orders",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/manage-orders.html"
+        }
+      }
+    })
+
+    .state('app.order-details', {
+      url: "/reading-club/manage-orders/order-details",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/order-details.html"
+        }
+      }
+    })
+
+    .state('app.review-order', {
+      url: "/reading-club/review-order",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/review-order.html"
+        }
+      }
+    })
+
+    .state('app.order-history', {
+      url: "/reading-club/manage-orders/order-history",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/order-history.html"
+        }
+      }
+    })
+
+    .state('app.wishlist', {
+      url: "/reading-club/wishlist",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/wishlist.html"
+        }
+      }
+    })
+
+    .state('app.club-contact', {
+      url: "/reading-club/club-contact",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/club-contact.html"
+        }
+      }
+    })
+
+    .state('app.club-faqs', {
+      url: "/reading-club/club-faqs",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/club-faqs.html"
+        }
+      }
+    })
+
+    .state('app.magazines', {
+      url: "/magazines",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/magazines.html"
+        }
+      }
+    })
+
     .state('app.playlists', {
       url: "/playlists",
       views: {

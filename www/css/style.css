@@ -12,3 +12,8 @@ body {
 .scroll { 
   min-width: 100%;
 }
+
+.item-note {
+	font-size: 18px;
+	color: black;
+}
