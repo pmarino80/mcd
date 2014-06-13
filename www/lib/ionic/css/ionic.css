@@ -2539,7 +2539,7 @@ a.subdued {
   .bar.bar-assertive {
     border-color: #E92437;
     background-color: #E92437;
-    background-image: linear-gradient(0deg, #cc2311, #cc2311 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #E92437, #E92437 50%, transparent 50%);
     color: #fff; }
     .bar.bar-assertive .title {
       color: #fff; }

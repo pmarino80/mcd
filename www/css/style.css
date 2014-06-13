@@ -4,6 +4,15 @@ body {
   cursor: url('http://ionicframework.com/img/finger.png'), auto;
 }
 
+h1 {
+	font-size: 18px !important;
+}
+
+h4 {
+	color: #4D4D4D;
+	margin-bottom: 0px !important;
+}
+
 .wide-as-needed {
   white-space: nowrap;
   /*  overflow-x: scroll; /*
@@ -22,4 +31,8 @@ body {
 	background: url(../img/triangles.png);
 	height: 15px;
 	margin-bottom: 10px;
+}
+
+.scroll-content {
+	background: #F2F0EC;
 }
