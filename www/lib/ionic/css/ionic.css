@@ -2198,7 +2198,7 @@ ion-infinite-scroll.active .scroll-infinite {
 
 /* If you change these, change platform.scss as well */
 .has-header {
-  top: 44px; }
+  top: 59px; }
 
 .no-header {
   top: 0; }
@@ -2477,11 +2477,10 @@ a.subdued {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 44px;
+  height: 59px;
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
-  border-bottom: 1px solid #ddd;
   background-color: white;
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
@@ -2536,11 +2535,13 @@ a.subdued {
     color: #fff; }
     .bar.bar-calm .title {
       color: #fff; }
-  .bar.bar-assertive {
+/*  .bar.bar-assertive {
     border-color: #E92437;
     background-color: #E92437;
     background-image: linear-gradient(0deg, #E92437, #E92437 50%, transparent 50%);
-    color: #fff; }
+    color: #fff; }*/
+	.bar.bar-assertive {
+	  color: #fff; }
     .bar.bar-assertive .title {
       color: #fff; }
   .bar.bar-balanced {
@@ -3666,9 +3667,10 @@ a.item-content {
   padding-top: 8px;
   padding-bottom: 8px;
   min-height: 30px;
-  background-color: #f5f5f5;
+  background-color: #F2F0EC;
   color: #222;
-  font-weight: bold; }
+  font-weight: bold; 
+  }
 
 .item-note {
   float: right;
@@ -4900,7 +4902,7 @@ progress {
         color: #fff; }
   .button.button-assertive {
     border-color: #cc2311;
-    background-color: #ef4e3a;
+    background-color: #E72235;
     color: #fff; }
     .button.button-assertive:hover {
       color: #fff;

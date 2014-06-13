@@ -36,3 +36,14 @@ h4 {
 .scroll-content {
 	background: #F2F0EC;
 }
+
+.bar-assertive {
+	background: #F2F0EC url(../img/triangles.png) !important;
+	border: none !important;
+}
+
+.slider-slide {
+	background: #F2F0EC;
+	padding: 0px;
+	margin: 0px;
+}
