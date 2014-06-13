@@ -2537,7 +2537,7 @@ a.subdued {
     .bar.bar-calm .title {
       color: #fff; }
   .bar.bar-assertive {
-    border-color: #cc2311;
+    border-color: #E92437;
     background-color: #E92437;
     background-image: linear-gradient(0deg, #cc2311, #cc2311 50%, transparent 50%);
     color: #fff; }
@@ -5140,6 +5140,7 @@ a.button {
  * --------------------------------------------------
  */
 .button-bar {
+  margin: 2px 0px 2px 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5178,8 +5179,9 @@ a.button {
   display: block;
   overflow: hidden;
   padding: 0 16px;
+  margin: 0px 1px;
   width: 0;
-  border-width: 1px 0px 1px 1px;
+  border-width: 1px;
   border-radius: 0;
   text-align: center;
   text-overflow: ellipsis;
@@ -5187,10 +5189,10 @@ a.button {
   .button-bar > .button:before, .button-bar > .button .icon:before {
     line-height: 44px; }
   .button-bar > .button:first-child {
-    border-radius: 2px 0px 0px 2px; }
+    border-radius: 0px 0px 0px 0px; }
   .button-bar > .button:last-child {
     border-right-width: 1px;
-    border-radius: 0px 2px 2px 0px; }
+    border-radius: 0px 0px 0px 0px; }
 
 /**
  * Animations

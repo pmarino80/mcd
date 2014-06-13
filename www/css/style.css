@@ -17,3 +17,9 @@ body {
 	font-size: 18px;
 	color: black;
 }
+
+.triangles {
+	background: url(../img/triangles.png);
+	height: 15px;
+	margin-bottom: 20px;
+}
