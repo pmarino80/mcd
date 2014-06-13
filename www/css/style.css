@@ -33,17 +33,44 @@ h4 {
 	margin-bottom: 10px;
 }
 
-.scroll-content {
+/*.scroll-content {
 	background: #F2F0EC;
-}
+	padding-top: 10px;
+}*/
 
 .bar-assertive {
-	background: #F2F0EC url(../img/triangles.png) !important;
+	background: url(../img/triangles.png) !important;
 	border: none !important;
+	margin-bottom: 5px !important;
 }
 
-.slider-slide {
-	background: #F2F0EC;
-	padding: 0px;
-	margin: 0px;
+
+.list {
+	padding-top: 15px;
+}
+
+.dark-menu {
+  background-color: #4D4D4D !important;
+  color: #ffffff;
+}
+
+/*Set the background to transparent for ion-item*/
+.dark-menu .item {
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid;
+  border-bottom: 2px solid;
+  border-color: #474343;
+  color: #FFF;
+}
+
+/*Changes the border for the last item*/
+.dark-menu .item:last-child {
+  border-bottom: 1px solid #474343;
+}
+
+/*Ion-item adds item-complex and an inner div, .item-content*/
+/* this needs to be transparent too, but doesnt need borders*/
+.dark-menu .item-complex .item-content, .mymenu .item-radio .item-content {
+  background-color: transparent;
 }
